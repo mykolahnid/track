@@ -1,0 +1,10 @@
+﻿<Window x:Class="Track.AddTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter Task" Height="148" Width="224">
+    <Grid>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="108,58,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsCancel="True" Height="31"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="19,58,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" IsDefault="True" Height="31"/>
+        <TextBox Name="TaskNameTextBox" HorizontalAlignment="Left" Height="23" Margin="19,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164" VerticalContentAlignment="Center"/>
+    </Grid>
+</Window>
